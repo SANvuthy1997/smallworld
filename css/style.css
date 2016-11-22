@@ -1,5 +1,5 @@
 
-/*------------------------------------------Search------------------------------------------------------*/
+  /*------------------------------------------Search------------------------------------------------------*/
 
 .navbar-form .form-control {
     display: inline-block;
@@ -37,14 +37,17 @@
     transition: 0.5s;
 }
 .btn-default:hover{
-    background-color: #92F22A;
-    border-color: #92F22A;
-    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+    color: #0a8;
     transition: 0.5s;
 }
 .header1{
     height: 70px;
     background-color: #0a8;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
 }
 .logo{
     max-width: 35%;
@@ -56,17 +59,18 @@ a{
     text-decoration: none;
 }
 .photo{
-    border:2px solid green;
+    border:2px solid #0a8;
 }
 h4{
     font-family: 'Righteous', cursive;
-    color:#71BA51;
+    color:#0a8;
 }
 p{
     color: #000;
 }
-h2{
+h2 {
     font-family: 'Fredoka One', cursive;
+    color: #0a8;
 }
 span{
     font-family: 'Hammersmith One', sans-serif;
@@ -80,8 +84,14 @@ a:hover{
     height:155px; 
     margin-top:60px;
 }
-h3{
-    font-family: 'Fredoka One', cursive;
+h3,h2{
+    font-family: 'Fjalla One', sans-serif;
+}
+h4{
+    font-family: 'Righteous', cursive;
+}
+.h3-title{
+    color: #000;
 }
 a h3:hover{
     color: #48AD01;
@@ -148,7 +158,13 @@ small{
 }
 }
 .panel{
-    border-radius: 4px;
+    padding: 10px;
+    border-radius: 0px;
+    border:1px solid #0a8;
+}
+.panel_startup{
+    padding: 10px;
+    border-radius: 0px;
     border:1px solid #0a8;
 }
 .panal1{
@@ -195,3 +211,121 @@ p{
 .photos{
     cursor: pointer;
 }
+.panal1{
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+h3 {
+    text-align: center;
+    color: #0a8;
+}
+.background{
+    height: 600px;
+    background: url(../img/smallworld-img/img1.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.contant-img{
+    background-color: rgba(0, 170, 136, 0.65);
+    height: 500px;
+}
+@media screen and (max-width: 770px) {
+    .contant-img{
+        background-color: rgba(0, 170, 136, 0.65);
+        height: 600px;
+}
+.h3-title{
+    color: #000;
+    margin-top: 60px;
+}
+}
+.h4-price-tile{
+    color: #fff;
+    font-size: 23px;
+}
+.h4-price{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.logo-single{
+    max-width: 50%;
+}
+.footer{
+    background-color: #00aa88;
+    margin-top: 10px;
+}
+
+
+.right-logo{
+    padding: 0px;
+    margin-top: -14px;
+    max-width: 54px;
+}
+.btn-readmore{
+    background-color: #00aa88;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/*beside slide menu*/
+.center-menu{margin:30px auto; float:none;}
+.center-menu ul{width:100%; padding-left:0;}
+.center-menu ul li{width:100%; margin-bottom:2px; background:#f4f4f4; list-style:none; padding:10px; 
+font-family:"open sans", serif ;
+   font-size:12px;}
+.center-menu ul li i{font-size:10px; color:#ccc; padding-right:5px;}
+ 
+.center-menu ul li a{color:#4f4f4f; display:block; text-decoration:none; width:100%;}
+.center-menu ul li:nth-child(1){border-right: 5px solid #8d54a3}
+.center-menu ul li:nth-child(2){border-right: 5px solid #6CC437}
+.center-menu ul li:nth-child(3){border-right: 5px solid #f28c1d}
+.center-menu ul li:nth-child(4){border-right: 5px solid #e94979}
+.center-menu ul li:nth-child(5){border-right: 5px solid #00B0F0}
+.center-menu ul li:nth-child(6){border-right: 5px solid #cc3333}
+.center-menu ul li:nth-child(7){border-right: 5px solid #FABE09}
+.center-menu ul li:nth-child(8){border-right: 5px solid #e94979}
+.center-menu ul li:nth-child(9){border-right: 5px solid #8d54a3}
+.center-menu ul li:nth-child(10){border-right: 5px solid #6CC437}
+.center-menu ul li:nth-child(11){border-right: 5px solid #f28c1d}
+.center-menu ul li:nth-child(12){border-right: 5px solid #e94979}
+.center-menu ul li:nth-child(13){border-right: 5px solid #00B0F0}
+.center-menu ul li:nth-child(14){border-right: 5px solid #F46652}
+.center-menu ul li:nth-child(15){border-right: 5px solid #FABE09}
+.center-menu ul li:nth-child(16){border-right: 5px solid #6CC437}
+.center-menu ul li:nth-child(17){border-right: 5px solid #f28c1d}
+.center-menu ul li:nth-child(18){border-right: 5px solid #e94979}
+.center-menu ul li:nth-child(19){border-right: 5px solid #00B0F0}
+.center-menu ul li:nth-child(20){border-right: 5px solid #F46652}
+.center-menu ul li:nth-child(21){border-right: 5px solid #FABE09}
+
+
+
+
+.center-menu ul li:hover a{color:#fff; text-decoration:none; transition: 0.3s;}
+.center-menu ul li:nth-child(1):hover{background-color:#8d54a3;transition: 0.3s;}
+.center-menu ul li:nth-child(2):hover{background-color:#6CC437;transition: 0.3s;}
+.center-menu ul li:nth-child(3):hover{background-color:#f28c1d;transition: 0.3s;}
+.center-menu ul li:nth-child(4):hover{background-color:#e94979;transition: 0.3s;}
+.center-menu ul li:nth-child(5):hover{background-color:#00B0F0;transition: 0.3s;}
+.center-menu ul li:nth-child(6):hover{background-color:#cc3333;transition: 0.3s;}
+.center-menu ul li:nth-child(7):hover{background-color:#FABE09;transition: 0.3s;}
+.center-menu ul li:nth-child(8):hover{background-color:#e94979;transition: 0.3s;}
+.center-menu ul li:nth-child(9):hover{background-color:#8d54a3;transition: 0.3s;}
+.center-menu ul li:nth-child(10):hover{background-color:#6CC437;transition: 0.3s;}
+.center-menu ul li:nth-child(11):hover{background-color:#f28c1d;transition: 0.3s;}
+.center-menu ul li:nth-child(12):hover{background-color:#e94979;transition: 0.3s;}
+.center-menu ul li:nth-child(13):hover{background-color:#00B0F0;transition: 0.3s;}
+.center-menu ul li:nth-child(14):hover{background-color:#F46652;transition: 0.3s;}
+.center-menu ul li:nth-child(15):hover{background-color:#FABE09;transition: 0.3s;}
+.center-menu ul li:nth-child(16):hover{background-color:#6CC437;transition: 0.3s;}
+.center-menu ul li:nth-child(17):hover{background-color:#f28c1d;transition: 0.3s;}
+.center-menu ul li:nth-child(18):hover{background-color:#e94979;transition: 0.3s;}
+.center-menu ul li:nth-child(19):hover{background-color:#00B0F0;transition: 0.3s;}
+.center-menu ul li:nth-child(20):hover{background-color:#F46652;transition: 0.3s;}
+.center-menu ul li:nth-child(21):hover{background-color:#FABE09;transition: 0.3s;}
